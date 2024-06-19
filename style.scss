@@ -23,6 +23,8 @@ h3{
 .content{
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 150px;
+
 
     & section{
         margin-bottom: 70px;
@@ -80,6 +82,10 @@ h3{
 
 .header{
     margin-bottom: 44px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: $cWhite;
 
 
     &__logo{
